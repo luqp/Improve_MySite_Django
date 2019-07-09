@@ -13,7 +13,10 @@ def menu_list(request):
     ).all().order_by('-expiration_date')
     menus = []
     for menu in all_menus:
-            menu_items = menu,  menu.items.all()
+        menu_items = menu,  menu.items.all()
+        if not menu.expiration_date:
+            menus.insert(0, menu_items)
+        else:
             menus.append(menu_items)
 
     return render(request, 'menu/list_all_current_menus.html', {'menus': menus})
