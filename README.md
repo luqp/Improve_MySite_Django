@@ -22,12 +22,6 @@ To run the application you need to enter the catalog folder and run the server a
 (env) ...\Improve_MySite_Django\improve_django_v3> python manage.py runserver
 ```
 
-## To load data
-The project provides test data that can be loaded with the following command:
-```
-(env) ...\Improve_MySite_Django\improve_django_v3> python manage.py loaddata .\fixtures\menu.json
-```
-
 To see the webpage you have to make `ctrl + click` in `http://127.0.0.1:8000/`this open a new window in your browser
 ```
 ...
@@ -35,6 +29,13 @@ Django version 1.9.9, using settings 'mysite.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
+
+## To load data
+The project provides test data that can be loaded with the following command:
+```
+(env) ...\Improve_MySite_Django\improve_django_v3> python manage.py loaddata .\fixtures\menu.json
+```
+
 ## Menu set
 
 <p align="center">
