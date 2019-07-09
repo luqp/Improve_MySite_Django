@@ -35,3 +35,14 @@ Django version 1.9.9, using settings 'mysite.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
+## Menu set
+
+<p align="center">
+  <img src="https://github.com/windyludev/Improve_MySite_Django/blob/master/images/Menu.jpg">
+</p>
+
+## Item detail
+
+<p align="center">
+  <img src="https://github.com/windyludev/Improve_MySite_Django/blob/master/images/Item_detail.jpg">
+</p>
