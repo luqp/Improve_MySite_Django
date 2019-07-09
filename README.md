@@ -31,7 +31,8 @@ Quit the server with CTRL-BREAK.
 ```
 
 ## To load data
-The project provides test data that can be loaded with the following command:
+The project provides test data located in `.\improve_django_v3\fixtures\menu.json` file,
+that can be loaded with the following command:
 ```
 (env) ...\Improve_MySite_Django\improve_django_v3> python manage.py loaddata .\fixtures\menu.json
 ```
