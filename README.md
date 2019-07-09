@@ -9,7 +9,7 @@ The objective of this project is to reduce the number of queries and the queries
 * Create a new Python virtual environment.
 
 ## Requirements
-This project use some requirements located on requirements.txt file:
+This project use some requirements located on `requirements.txt` file, steps to install:
 ```
 (env) ...\Improve_MySite_Django> cd .\improve_django_v3\
 (env) ...\Improve_MySite_Django\improve_django_v3> pip install -r requirements.txt
